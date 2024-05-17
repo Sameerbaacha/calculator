@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS CALCULATOR</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator-body">
+            <div>
+                <h3>CASIO</h3>
+                <p>Electronic Calculator HL-4A</p>
+            </div>
+            <input id="result" type="text">
+            <br><br>
+            <div class="row col-4">
+                <div class="col-3"><button onclick="clearResult()" class="red">AC</button></div>
+                <div class="col-3"><button class="red" onclick="getNumber('M-')">M-</button></div>
+                <div class="col-3"><button onclick="getNumber('M+')">M+</button></div>
+                <div class="col-3"><button onclick="getNumber('%')">%</button></div>
+            </div>
+            <div class="row col-4">
+                <div class="col-3"><button onclick="getNumber('7')">7</button></div>
+                <div class="col-3"><button onclick="getNumber('8')">8</button></div>
+                <div class="col-3"><button onclick="getNumber('9')">9</button></div>
+                <div class="col-3"><button onclick="getNumber('/')">/</button></div>
+            </div>
+            <div class="row col-4">
+                <div class="col-3"><button onclick="getNumber('4')">4</button></div>
+                <div class="col-3"><button onclick="getNumber('5')">5</button></div>
+                <div class="col-3"><button onclick="getNumber('6')">6</button></div>
+                <div class="col-3"><button onclick="getNumber('*')">x</button></div>
+            </div>
+            <div class="row col-4">
+                <div class="col-3"><button onclick="getNumber('1')">1</button></div>
+                <div class="col-3"><button onclick="getNumber('2')">2</button></div>
+                <div class="col-3"><button onclick="getNumber('3')">3</button></div>
+                <div class="col-3"><button onclick="getNumber('-')">-</button></div>
+            </div>
+            <div class="row col-4">
+                <div class="col-3"><button onclick="getNumber('0')">0</button></div>
+                <div class="col-3"><button onclick="getNumber('.')">.</button></div>
+                <div class="col-3"><button onclick="getResult()">=</button></div>
+                <div class="col-3"><button onclick="getNumber('+')">+</button></div>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
