@@ -54,6 +54,9 @@ button {
 button:hover{
     background-color: black;
 }
+#or:hover{
+    background-color: orangered;
+}
 
 input {
     width: 100%;
